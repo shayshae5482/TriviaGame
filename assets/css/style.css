@@ -1,0 +1,23 @@
+
+
+h1, h3, {
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/18/23/50/insurance-1991214_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: fixed;
+    margin-top: -50px;
+    background-size: 35%;
+}
+
+#after_submit {
+    visibility: hidden;
+}
+
