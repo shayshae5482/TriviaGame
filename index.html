@@ -2,52 +2,33 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Trivia Game</title>
+    <title>Insurance Trivia Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="reset" href="assets/css/reset.css" />
+
+    <!---Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Google Fonts-->
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 
 </head>
 
 <body>
 
 
-    <div class="backdrop">
-        <div class="container">
-
-            <h1>Auto Insurance Trivia!</h1>
-            
-            <p class="lead"></p>
-            <br>
-            <br>
-
-            <form id = "trivia">
-
-                
-            <h3 class="q1">Which of the following statements is FALSE?</h3>
-            <input type = "radio" id ="mc1" name = "q1" value = "Auto insurance automatically covers your medical costs after an accident.">Auto insurance automatically covers your medical costs after an accident.<br>
-            <input type = "radio" id ="mc1" name = "q1" value = "Liability insurance covers only third party damages.">Liability insurance covers only third party damages.<br>
-            <input type = "radio" id ="mc1" name = "q1" value = "Comprehensive and Collision coverage usually has a deductible.">Comprehensive and Collision coverage usually has a deductible.<br>
-           
-            <h3 class="q2">Which of the following statements is TRUE?</h3>
-            <input type = "radio" id ="mc2" name = "q2" value = "Collision coverage covers third party damges.">Collision coverage covers third party damges.<br>
-            <input type = "radio" id ="mc2" name = "q2" value = "You can only use your health insurance for injuries sustained in an accident.">You can only use your health insurance for injuries sustained in an accident.<br>
-            <input type = "radio" id ="mc2" name = "q2" value = "Comprehensive covers your vehicle for accidents such as animal hits and hail damage.">Comprehensive covers your vehicle for accidents such as animal hits and hail damage.<br>
-            <br>
-            <h3 class="q3">How many accidents can you have in a year?</h3>
-            <br>
-            <h3 class="q4">Choose one: What happens after you have an accident?</h3>
-            <br>
-        
-            <input type = "button" id = "button" value = "I'm done!">
+    <div id="wrapper">
+      <h1>Simple Insurance Questions</h1>
+      <h4>Can you answer these simple insurance questions before time runs out?</h4>
+      <div id="sub-wrapper">
+        <div id="quiz-area">
+          <button id="start" class="btn btn-info" type="submit">Start</button>
         </div>
+      </div>
     </div>
-</form>
 
-<div id = "after_submit">
-<p id = "number_correct"></p>
-
-</div>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
